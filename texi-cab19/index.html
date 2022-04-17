@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html class="is-desktop" lang="en-GB">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Airport Taxi-Pre Book Fixed Price Airport Transfers</title>
+    <meta name="description" content="Taxi Transfers To &amp; From Glasgow Airport, Quote &amp; Reserve Your Taxi Online, Safe, Punctual, Reliable">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <header>
+      <div class="navbar-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5 col-sm-5 col-xs-12">
+              <div class="navbar-social sm-text-center">
+                <div class="">
+                  <a href="<!-- https://wa.me/+447383553977/?text=Hi -->" class="d-inline-block p-2 text-decoration-none" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>						
+                </div>
+              </div>
+            </div>
+            <div class="col-md-7 col-sm-7 col-xs-12">
+              <div class="navbar-callus text-end sm-text-center">
+                <div class="">
+                  <span><a href="tel:+441412660151" class="text-decoration-none"><i class="fa-solid fa-phone"></i> +441412660151</a></span>
+                  <span><a href="mailto:info@timesafetravel.com" class="text-decoration-none"><i class="fa-solid fa-envelope"></i> info@timesafetravel.com</a></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt="Time Safe Travel" style="max-height:45px;border:0px;max-width:250px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+              <li class="nav-item"><a class="nav-link" href="reviews.html">Reviews</a></li>
+              <li class="nav-item"><a class="nav-link" href="contact.html">Contact us</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div id="home2">
+      <section class="section2-hero bg-theme text-white">
+        <div class="container-fluid">
+          <div class="row text-center align-items-center">
+            <div class="col-lg-6 my-4">
+              <h1 class="mb-3 my-4">Glasgow Airport Taxi&nbsp;</h1>
+              <p>Long Distance Taxis To And From Glasgow&nbsp;<span style="background-color: rgb(var(--ns-bg-primary)); font-size: var(--bs-body-font-size);">Pre-book your Glasgow Airport Taxi</span></p>
+              <div class="d-block">
+                <div class="banner-v2">
+                  <form name="frmCabookie" id="frmCabookie" action="" method="POST" data-parsley-validate="" novalidate="">
+                    <div class="row gx-2">
+                      <div class="min-form-pickup col-12 col-lg">
+                        <div class="input-group">
+                          <span class="input-group-text"><i class="fa-solid fa-map-pin"></i></span>
+                          <input type="text" id="txtPickUpLocation" name="txtPickUp" placeholder="Pick Up - Location/Address" class="form-control autocomplete-Location rounded-end ui-autocomplete-input" autocomplete="off" required="required" data-parsley-errors-container="#pickErrCon" data-parsley-error-message="Please select valid location/address">
+                          <input type="text" id="txtPickUp" name="txtPickUp" placeholder="Pick Up - Location/Address" class="form-control autocomplete-Google pac-target-input" autocomplete="off" style="display: none;" disabled="disabled" data-parsley-errors-container="#pickErrCon" data-parsley-error-message="Please select valid address">
+                        </div>
+                        <input type="hidden" id="txtPickUpLat" name="txtPickUpLat">
+                        <input type="hidden" id="txtPickUpLng" name="txtPickUpLng">
+                        <div id="pickErrCon"></div>
+                      </div>
+                      <div class="min-form-dropoff col-12 col-lg">
+                        <div id="dropOff1Row">
+                          <div class="input-group">
+                            <span class="input-group-text"><i class="fa-solid fa-flag"></i></span>
+                            <input type="text" id="txtDropOff1Location" name="txtDropOff[]" placeholder="Drop Off - Location/Address" class="form-control autocomplete-Location ui-autocomplete-input" autocomplete="off" required="required" data-parsley-errors-container="#dropErrCon" data-parsley-error-message="Please select valid location/address">
+                            <input type="text" id="txtDropOff1" name="txtDropOff[]" placeholder="Drop Off - Location/Address" class="form-control autocomplete-Google pac-target-input" autocomplete="off" style="display: none;" disabled="disabled" data-parsley-errors-container="#dropErrCon" data-parsley-error-message="Please select valid location/address">
+                            <button type="button" class="btn btn-primary" onclick="addDropOff();"><i class="fa-solid fa-plus"></i></button>
+                          </div>
+                          <input type="hidden" id="txtDropOff1Lat" name="txtDropOff1Lat">
+                          <input type="hidden" id="txtDropOff1Lng" name="txtDropOff1Lng">
+                        </div>
+                        <div id="dropErrCon"></div>
+                        <div id="addedRows" class="w-100">
+                          <div id="dropoff2" style="display: none;">
+                            <div class="input-group mt-2">
+                              <span class="input-group-text"><i class="fa-solid fa-flag"></i></span>
+                              <input type="text" id="txtDropOff2Location" name="txtDropOff[]" placeholder="Additional Drop Off" class="form-control autocomplete-Location ui-autocomplete-input" autocomplete="off" disabled="disabled" data-parsley-errors-container="#dropOffErrCon2" data-parsley-error-message="Please select valid location/address">
+                              <input type="text" id="txtDropOff2" name="txtDropOff[]" placeholder="Additional Drop Off" class="form-control autocomplete-Google pac-target-input" autocomplete="off" style="display: none;" disabled="disabled" data-parsley-errors-container="#dropOffErrCon2" data-parsley-error-message="Please select valid location/address">
+                              <input type="hidden" id="txtDropOff2Lat" name="txtDropOff2Lat">
+                              <input type="hidden" id="txtDropOff2Lng" name="txtDropOff2Lng">
+                              <button type="button" class="btn btn-danger" onclick="removeDropOff(2);"><i class="fa-solid fa-minus"></i></button>
+                            </div>
+                            <div id="dropOffErrCon2"></div>
+                          </div>
+                          <div id="dropoff3" style="display: none;">
+                            <div class="input-group mt-2">
+                              <span class="input-group-text"><i class="fa-solid fa-flag"></i></span>
+                              <input type="text" id="txtDropOff3Location" name="txtDropOff[]" placeholder="Additional Drop Off" class="form-control autocomplete-Location ui-autocomplete-input" autocomplete="off" disabled="disabled" data-parsley-errors-container="#dropOffErrCon3" data-parsley-error-message="Please select valid location/address">
+                              <input type="text" id="txtDropOff3" name="txtDropOff[]" placeholder="Additional Drop Off" class="form-control autocomplete-Google pac-target-input" autocomplete="off" style="display: none;" disabled="disabled" data-parsley-errors-container="#dropOffErrCon3" data-parsley-error-message="Please select valid location/address">
+                              <input type="hidden" id="txtDropOff3Lat" name="txtDropOff3Lat">
+                              <input type="hidden" id="txtDropOff3Lng" name="txtDropOff3Lng">
+                              <button type="button" class="btn btn-danger" onclick="removeDropOff(3);"><i class="fa-solid fa-minus"></i></button>
+                            </div>
+                            <div id="dropOffErrCon3"></div>
+                          </div>
+                          <div id="dropoff4" style="display: none;">
+                            <div class="input-group mt-2">
+                              <span class="input-group-text"><i class="fa-solid fa-flag"></i></span>
+                              <input type="text" id="txtDropOff4Location" name="txtDropOff[]" placeholder="Additional Drop Off" class="form-control autocomplete-Location ui-autocomplete-input" autocomplete="off" disabled="disabled" data-parsley-errors-container="#dropOffErrCon4" data-parsley-error-message="Please select valid location/address">
+                              <input type="text" id="txtDropOff4" name="txtDropOff[]" placeholder="Additional Drop Off" class="form-control autocomplete-Google pac-target-input" autocomplete="off" style="display: none;" disabled="disabled" data-parsley-errors-container="#dropOffErrCon4" data-parsley-error-message="Please select valid location/address">
+                              <input type="hidden" id="txtDropOff4Lat" name="txtDropOff4Lat">
+                              <input type="hidden" id="txtDropOff4Lng" name="txtDropOff4Lng">
+                              <button type="button" class="btn btn-danger" onclick="removeDropOff(4);"><i class="fa-solid fa-minus"></i></button>
+                            </div>
+                            <div id="dropOffErrCon4"></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="min-form-datetime col-12 col-lg">
+                        <div class="row gx-1">
+                          <div class="col-md-6">
+                            <div class="input-group">
+                              <span class="input-group-text"><i class="fa-solid fa-calendar-days"></i></span>
+                              <input type="text" name="txtDate" id="datepicker" class="form-control" placeholder="Pickup date" required="" data-parsley-errors-container="#txtDateCon" data-parsley-error-message="Please select valid date" readonly="readonly">
+                            </div>
+                            <div id="txtDateCon"></div>
+                          </div>
+                          <div class="col-md-3 col-6">
+                            <select name="selDateHr" id="selDateHr" class="form-select form-select-lg" required="" data-parsley-error-message="Required">
+                              <option value="" selected="selected">HH</option>
+                              <option value="00">00</option>
+                              <option value="01">01</option>
+                              <option value="02">02</option>
+                              <option value="03">03</option>
+                              <option value="04">04</option>
+                              <option value="05">05</option>
+                              <option value="06">06</option>
+                              <option value="07">07</option>
+                              <option value="08">08</option>
+                              <option value="09">09</option>
+                              <option value="10">10</option>
+                              <option value="11">11</option>
+                              <option value="12">12</option>
+                              <option value="13">13</option>
+                              <option value="14">14</option>
+                              <option value="15">15</option>
+                              <option value="16">16</option>
+                              <option value="17">17</option>
+                              <option value="18">18</option>
+                              <option value="19">19</option>
+                              <option value="20">20</option>
+                              <option value="21">21</option>
+                              <option value="22">22</option>
+                              <option value="23">23</option>
+                            </select>
+                          </div>
+                          <div class="col-md-3 col-6">
+                            <select name="selDateMn" id="selDateMn" class="form-select form-select-lg" required="" data-parsley-error-message="Required">
+                              <option value="" selected="selected">MM</option>
+                              <option value="00">00</option>
+                              <option value="05">05</option>
+                              <option value="10">10</option>
+                              <option value="15">15</option>
+                              <option value="20">20</option>
+                              <option value="25">25</option>
+                              <option value="30">30</option>
+                              <option value="35">35</option>
+                              <option value="40">40</option>
+                              <option value="45">45</option>
+                              <option value="50">50</option>
+                              <option value="55">55</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="min-form-submit col-12 col-lg-auto">
+                        <input type="button" class="btn btn-primary w-100" id="btnCheckPrice" value="GET QUOTE">
+                        <input type="hidden" name="cabookie" value="M"><input type="hidden" name="key" id="key">
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 px-0">
+              <img class="img-fluid" src="assets/images/Glasgow-airport-taxi-to.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="home2-feature1 home2-sec">
+        <div class="container">
+          <div>
+            <h3>
+              <div style="text-align: center;"><span style="font-size: 1.75rem; text-align: var(--bs-body-text-align);">Glasgow Edinburgh Prestwick Airport Transfers,&nbsp;</span><span style="font-size: 1.75rem; text-align: var(--bs-body-text-align);">Instant Online Quote</span></div>
+              <div style="text-align: center;"><span style="font-size: 1.75rem; text-align: var(--bs-body-text-align);">Safe, Punctual, Reliable Service</span><br><br></div>
+            </h3>
+            <p class="text-center text-lg-start"><b>We offer a pre-booked, pre 
+              paid private hire taxi service, enabling you to relax in the knowledge 
+              your Airport Transfer has been booked, with a reliable and punctual 
+              Glasgow private hire taxi company.</b><br><br><b>We will pick you up or drop off at all airports, sea ports, train stations, hotels, place of business or your home.</b><br>
+            </p>
+            <p class="text-center text-lg-start"><b>We do not charge “surge” pricing, the price you see is the price you pay.</b></p>
+            <p class="text-center text-lg-start"><b>All
+              our Glasgow Airport transfers are private for you and your party only, 
+              you will not have to share, make unnecessary stops, nor wait for other 
+              passengers, at our taxi company, we monitor your flight to ensure we 
+              pick you up at the correct time.</b>
+            </p>
+            <p class="text-center text-lg-start"><b>We are also a long distance taxi company, that provide travel to and from Glasgow.</b></p>
+            <p class="text-center text-lg-start"><b>Our simple, easy to use, four step online booking system allows you to quote and book quickly and efficiently, at your leisure.</b></p>
+            <p class="text-center text-lg-start"><b>1 Enter the date and time of your journey, pick up location and drop off destination</b></p>
+            <p class="text-center text-lg-start"><b>2 Choose your vehicle</b></p>
+            <p class="text-center text-lg-start"><b>3 Enter your contact details</b></p>
+            <p class="text-center text-lg-start"><b>4 Make your payment</b></p>
+            <p class="text-center text-lg-start"><b>Our
+              fleet of vehicles comprises of saloons, MPV 6 seaters, 8 seater 
+              minibuses, and also Executive class Mercedes E Class, BMW 5 Series, Audi
+              A6 or equivalent, for an enhanced luxurious experience.</b>
+            </p>
+            <p class="text-center text-lg-start"><b>If
+              you select our optional Glasgow Airport Meet and Greet Service, our 
+              driver will be waiting in the airport arrivals hall, holding a sign with
+              your name, and escort you to the vehicle.</b>
+            </p>
+            <p class="text-center text-lg-start"><b>All
+              our Glasgow Airport Taxi Transfers are private for you and your party 
+              only, you will not have to share, make unnecessary stops, nor wait for 
+              other passengers, we monitor your flight to ensure we pick you up at the
+              correct time.</b>
+            </p>
+            <p class="text-center text-lg-start"><b>Our low 
+              cost and affordable Glasgow Airport Taxi Transfer prices, to and from 
+              Glasgow Airport&nbsp; offer excellent value, quotes can be viewed and 
+              booked adding your details to the above form, and clicking Book Now, or 
+              by our online booking page. If you require a transfer that is outwith 
+              our operating hours, please contact us with details of your journey pick
+              up and destination locations, date and time of travel, number of 
+              passengers and luggage amount.&nbsp; We can be contacted via Whatsapp by
+              clicking the green Whatsapp icon to the right, by email or by using our
+              contact page.</b>
+            </p>
+            <p class="text-center text-lg-start"><b>Glasgow 
+              Airport is our local airport, and within our operating and coverage 
+              area, we are based only a few minutes away. Other airports close to 
+              Glasgow, include Edinburgh Airport and Glasgow Prestwick Airport, if you
+              need an airport transfer to any of these airports, from or to Glasgow, 
+              please do try a quote and book online.</b>
+            </p>
+            <p class="text-center text-lg-start"><b>Our
+              Long Distance Taxi Service can safely transport you to any location in 
+              the United Kingdom if you are leaving from or traveling to the Glasgow 
+              area, we can take you to all Airports, Sea Ports, Train Stations, Bus 
+              Stations and any address in the United Kingdom, your home, hotel, 
+              office, or even to Glasgow City Centre, all destinations are provided.</b>
+            </p>
+            <p class="text-center text-lg-start"><b>We
+              take pride in your satisfaction, customer service is our top priority, 
+              booking your trip with us, you can be assured our friendly drivers have 
+              served thousands of passengers and look forward to serving you!</b>
+            </p>
+            <p class="text-center text-lg-start"><b>We
+              regularly transport our passengers to all major airports and 
+              destinations, Manchester Airport MAN, London Heathrow LHR, Prestwick 
+              PIK, Edinburgh Airport EDI, and Aberdeen ABZ are all covered if you are 
+              leaving from or returning to the Glasgow region.</b>
+            </p>
+            <p class="text-center text-lg-start"><b>We
+              will monitor your flight, and will know exactly when you are due to 
+              land, so don’t worry if your flight is late, or even early, we will 
+              adjust your pickup time accordingly and safely and quickly take you to 
+              your destination.</b>
+            </p>
+            <p class="text-center text-lg-start"><b>Our 
+              saloon taxis and Executive car vehicles are able to comfortably 
+              transport 4 passengers, with a total luggage amount of 2 medium sized 
+              suitcases, or 4 hand luggage.</b>
+            </p>
+            <p class="text-center text-lg-start"><b>Mpv’s can take up to 4 passengers and 4 suitcases or 6 hand luggage depending on the number of passengers.</b></p>
+            <p class="text-center text-lg-start"><b>Our 8 seater minibus can transfer 8 passengers, 6 suitcases or 10 hand luggage.</b></p>
+            <p class="text-center text-lg-start"><b>If you have any over sized or special luggage requirements, please contact us if you are unsure.</b></p>
+            <p class="text-center text-lg-start"><b>The pick up point at Glasgow International Airport is Car Park 2 Zone B, if you have not booked our meet and greet option.</b></p>
+            <p class="text-center text-lg-start"><b>The pick up point at Edinburgh International Airport and Glasgow Prestwick Airport is clearly marked in the car park.</b></p>
+            <p class="text-center text-lg-start"><b>Please
+              book your return trip, at the time of booking online, as we may not be 
+              able to accommodate your return journey at very short notice, or contact
+              us with your needs. Please book via our website allowing at least 24 
+              hours notice before you plan to travel.</b>
+            </p>
+            <p class="text-center text-lg-start"><b>Details of your booking will be sent to you automatically via email.</b></p>
+            <p class="text-center text-lg-start"><b>Long distance journeys are always welcome, Time Safe Travel is a taxi company that specialises in long distance travel.</b></p>
+            <p class="text-center text-lg-start"><b>We will stop regularly during your trip for your convenience if required.</b></p>
+            <p class="text-center text-lg-start"><b>Arrivals and Departures at Glasgow Airport can be checked HERE for your convenience.<br><br>We
+              accept BITCOIN and CASHAPP, please contact us via email or Whatsapp if 
+              you would like to book an airport transfer or journey using Bitcoin or 
+              Cashapp.<br></b>
+            </p>
+            <p class="text-center text-lg-start"><b>BOOK YOUR GLASGOW AIRPORT TAXI OR LONG DISTANCE TAXI WITH US!</b></p>
+          </div>
+          <div class="row mt-5 text-center">
+            <div class="col-md-4 p-3 bg-theme text-white">
+              <h3 class="h5 mb-3">Low Cost</h3>
+              <p clsss="mt-3">We are very competitively priced and guarantee a bespoke tailor made trip unique to your exact requirements</p>
+            </div>
+            <div class="col-md-4 p-3 bg-white">
+              <h3 class="h5 mb-3">The Vehicles</h3>
+              <p clsss="mt-3">From an Economy Saloon to Executive Mercedes, or even an 8 seater Minibus, quote and choose your vehicle.</p>
+            </div>
+            <div class="col-md-4 p-3 bg-theme text-white">
+              <h3 class="h5 mb-3">On Time &amp; Punctual</h3>
+              <p clsss="mt-3">We are always on time, whether you are leaving from home, work, hotel or an airport, we will be there on time.</p>
+            </div>
+          </div>
+          <div class="row text-center">
+            <div class="col-md-4 p-3 bg-white">
+              <h3 class="h5 mb-3">Licensed &amp; Vetted Drivers</h3>
+              <p clsss="mt-3">Experience a smooth ride from your pick up location to the destination, we only select the best drivers.</p>
+            </div>
+            <div class="col-md-4 p-3 bg-theme text-white">
+              <h3 class="h5 mb-3">Availability</h3>
+              <p clsss="mt-3">We operate 24/7 throughout the year. Our drivers 
+                will collect&nbsp; you, even if you are stuck at the airport in the 
+                middle of the night.
+              </p>
+            </div>
+            <div class="col-md-4 p-3 bg-white">
+              <h3 class="h5 mb-3">Holidays &amp; Tourism</h3>
+              <p clsss="mt-3">We regularly transfer our passengers to all holiday and tourist destinations in Scotland.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="home2-feature4  home2-sec" style="background: url(assets/images/home2-img1.jpg);">
+        <div class="container">
+          <h4 class="h2 text-center mb-3 text-white">What's special about us?</h4>
+          <p class="mb-3 text-white text-center">We will travel with you in all
+            walks of life. We are the right choice if it’s a Business trip, Medical
+            appointments, Flight run, Wedding or even a casual outing.
+          </p>
+          <div class="row">
+            <div class="col-md-6 mb-4 mb-lg-0">
+              <div class="bg-white p-4 text-center text-lg-start">
+                <h4 class="h5 mb-3">24/7 Customer Service</h4>
+                <p><span>We operate 24/7 all throughout the year. We are happy to help at any time. You can even reach us via Whatsapp, email&nbsp;</span>or a phone<span style="background-color: rgba(var(--bs-white-rgb),var(--bs-bg-opacity)); font-size: var(--bs-body-font-size);">&nbsp;call.</span><span><br></span></p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="bg-white p-4 text-center text-lg-start">
+                <h4 class="h5 mb-3">Pre-paid option</h4>
+                <p>Are you in a hurry such that it’s tough for you to spend a 
+                  minute after the ride? Release your breath! Opt for our prepaid option 
+                  and lean on the seat.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-md-6 mb-4 mb-lg-0">
+              <div class="bg-white p-4 text-center text-lg-start">
+                <h4 class="h5 mb-3">Bitcoin as an option</h4>
+                <p>Don't you have your credit cards and debit cards handy?&nbsp; We accept Bitcoin and Cashapp payments too.</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="bg-white p-4 text-center text-lg-start">
+                <h4 class="h5 mb-3">Booking Confirmation</h4>
+                <p>Download the booking confirmation once you are done with the booking. It’s a confirmation for your wonderful ride.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="home2-feature2  home2-sec">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-4 text-lg-end text-center">
+              <div class="row mb-3">
+                <h5 class="mb-3">Airport Transfers</h5>
+                <p>Glasgow Airport Taxis and Transfers, pick up and drop off at 
+                  any destination in the United Kingdom. All train stations, sea ports, 
+                  bus stations and hotels.&nbsp;
+                </p>
+              </div>
+              <div class="row mb-3">
+                <h5 class="mb-3">Flight Monitoring</h5>
+                <p>If you are arriving at Glasgow, Edinburgh or Prestwick 
+                  Airports, we will monitor your flight, our driver will be waiting for 
+                  you when you land.
+                </p>
+              </div>
+              <div class="row">
+                <h5 class="mb-3">Meet &amp; Greet Service</h5>
+                <p>Optional Meet &amp; Greet Service, our Driver will meet you 
+                  inside the airport with a name board. Flights will be monitored for any 
+                  delays.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-5 mb-lg-0 mt-5 mt-md-5 mt-lg-0 text-center">
+              <img class="img-fluid feature2-sec-img" src="assets/images/home2-img2.jpg" alt="">
+            </div>
+            <div class="col-lg-4 text-lg-start text-center">
+              <div class="row mb-3">
+                <h5 class="mb-3">Long Distance Journeys</h5>
+                <p>Long distance journeys are our specialty and always welcome.We 
+                  will stop regularly for your convenience if required.Our private hire 
+                  taxi drivers are experienced, polite and professional.<br><br><span style="font-size: 1.25rem; font-weight: 700; text-align: right;">Business trips</span><br><br><span style="text-align: right;">Enjoy
+                  our punctual rides while you close deals during the drive.Now, Business
+                  meetings won't be rushed, since you made the most relevant choice by 
+                  choosing us</span><br>
+                </p>
+              </div>
+              <div class="row">
+                <h5 class="mb-3">Local Drivers with Local Knowledge</h5>
+                <p>All our drivers are local to Glasgow, ensuring knowledge of roads and the best routes.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="home2-feature3 bg-white home2-sec">
+        <div class="container">
+          <h6 class="h2 text-center mb-3">Client Satisfaction</h6>
+          <p class="mb-5 text-center">Over 10000+ Clients love our services. 
+            Choose us and enjoy our services too! Trust   us with you transport and 
+            travel arrangements!
+          </p>
+          <div class="row mt-5">
+            <div class="col-md-4">
+              <div class="bt-wra right bg-theme-dark">
+                <img class="img-fluid feature3-sec-img" src="assets/images/home2-img3.jpg" alt="">
+                <h6 class="h3 mb-3 mt-3"><font color="#ffffff">Refreshing rides</font></h6>
+                <p><font color="#ffffff">Whether it’s Vacation or Workation, we are the most relevant choice.&nbsp;</font></p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="bt-wra right bg-theme">
+                <img class="img-fluid feature3-sec-img" src="assets/images/home2-img4.jpg" alt="">
+                <h6 class="h3 mb-3 mt-3 text-white">Navigation</h6>
+                <p class="text-white">Our vehicles are equipped with the best navigation system to find the best route to your destination.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="bt-wra right bg-theme-dark">
+                <img class="img-fluid feature3-sec-img" src="assets/images/home2-img6.jpg" alt="">
+                <h6 class="h3 mb-3 mt-3"><font color="#ffffff">Help amidst the haste</font></h6>
+                <p><font color="#ffffff">Customer Service and satisfaction is our priority, relax with our professional and courteous drivers.</font></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="bg-theme-dark home2-sec ">
+        <div class="container">
+          <div class="text-center">
+            <h6 class="h3 mb-3"><font color="#ffffff">Hold up! Here is the most important part</font></h6>
+            <p class="fa-1x"><font color="#ffffff">Thank you for visiting TimeSafeTravel.com! We would be beyond delighted to see your name on our booking list soon.&nbsp;</font></p>
+            <a href="contact.html" class="btn btn-primary">Contact</a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <div class="py-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-12">
+              <p class="mb-2">
+                <a href="terms.html">Terms and Conditions</a>
+              </p>
+              <p class="mb-2">
+                <a href="privacy-policy.html">Privacy Policy</a>
+              </p>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-12 text-md-end text-start">
+              <p class="mb-2">© 2022&nbsp;Time Safe Travel. All Rights Reserved.</p>
+              <p class="mb-2">Licensed Under: Glasgow City Council</p>
+              <p class="mb-2">20-23 Woodside Place,<br>
+                Glasgow,<br>
+                G3 7QL<br>
+                United Kingdom
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- WhatsApp Integration -->
+    <div class="wa-chat">
+      <a href="<!-- https://api.whatsapp.com/send?phone=447387553977&amp;text=Hi -->" target="_blank" rel="noreferrer">
+        <div class="wa-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+            <path fill="currentColor" d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"></path>
+          </svg>
+        </div>
+      </a>
+    </div>
+    <!-- /WhatsApp Integration -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/all.min.js"></script>
+  </body>
+</html>
+

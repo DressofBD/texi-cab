@@ -1,0 +1,2535 @@
+@font-face {
+	font-family: SFProDisplay-Bold;
+	src: url(../fonts/SFProDisplay-Bold.eot);
+	src: url(../fonts/SFProDisplay-Bold.eot#iefix) format("embedded-opentype"), url(../fonts/SFProDisplay-Bold.woff2) format("woff2"), url(../fonts/SFProDisplay-Bold.woff) format("woff"), url(../fonts/SFProDisplay-Bold.ttf) format("truetype"), url(../fonts/SFProDisplay-Bold.svg#svgFontName) format("svg")
+}
+
+/*! CSS Used from: Embedded */
+.gm-style-moc {
+	background-color: rgba(0, 0, 0, .45);
+	pointer-events: none;
+	text-align: center;
+	transition: opacity ease-in-out
+}
+
+.gm-style-mot {
+	color: #fff;
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 22px;
+	margin: 0;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%)
+}
+
+/*! CSS Used from: Embedded */
+.gm-style img {
+	max-width: none
+}
+
+.gm-style {
+	font: 400 11px Roboto, Arial, sans-serif;
+	text-decoration: none
+}
+
+/*! CSS Used from: Embedded */
+.pac-container {
+	background-color: #fff;
+	border-radius: 2px;
+	border-top: 1px solid #d9d9d9;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, .3);
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+	overflow: hidden;
+	position: absolute !important;
+	z-index: 1000
+}
+
+.pac-logo:after {
+	background-image: url(../images/powered-by-google-on-white3.png);
+	background-position: 100%;
+	background-repeat: no-repeat;
+	background-size: 120px 14px;
+	box-sizing: border-box;
+	content: "";
+	display: block;
+	height: 18px;
+	padding: 1px 1px 1px 0;
+	text-align: right
+}
+
+.pac-target-input:not(:-webkit-autofill) {
+	-webkit-animation-name: endBrowserAutofill;
+	animation-name: endBrowserAutofill
+}
+
+/*! CSS Used from: https://airporttaxis.com/css/app.css */
+.flag-icon {
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: inline-block;
+	line-height: 1em;
+	position: relative;
+	width: 1.33333333em
+}
+
+.flag-icon:before {
+	content: "\00a0"
+}
+
+.flag-icon-de {
+	background-image: url(https://airporttaxis.com/images/vendor/flag-icon-css/flags/4x3/de.svg)
+}
+
+.flag-icon-fr {
+	background-image: url(https://airporttaxis.com/images/vendor/flag-icon-css/flags/4x3/fr.svg)
+}
+
+.flag-icon-nl {
+	background-image: url(https://airporttaxis.com/images/vendor/flag-icon-css/flags/4x3/nl.svg)
+}
+
+.flag-icon-ru {
+	background-image: url(https://airporttaxis.com/images/vendor/flag-icon-css/flags/4x3/ru.svg)
+}
+
+.header_svg {
+	bottom: -1px;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	z-index: 2
+}
+
+.header {
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+	position: relative
+}
+
+.header:before {
+	background-color: rgba(0, 0, 0, .7);
+	opacity: .5;
+	top: 0;
+	z-index: 1
+}
+
+.header:after,
+.header:before {
+	content: "";
+	height: 100%;
+	left: 0;
+	position: absolute;
+	width: 100%
+}
+
+.header:after {
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	-moz-filter: blur(3px);
+	-o-filter: blur(3px);
+	-ms-filter: blur(3px);
+	filter: blur(3px);
+	top: -10px
+}
+
+.header .header_inner {
+	position: relative;
+	z-index: 3
+}
+
+.header.home-header:before {
+	background: linear-gradient(75.95deg, #2a65c0 10.06%, #3f81e4 78.33%);
+	opacity: .8
+}
+
+.iview-container-at.at-layout.at-widget-booking {
+	max-width: none !important
+}
+
+#stm-booking-widget .at-widget-booking .at-step-airports-content-search-button {
+	width: 200px !important
+}
+
+@media (max-width:1250px) {
+	.header {
+		margin-bottom: 20px;
+		padding-bottom: 60px
+	}
+}
+
+@media (max-width:768px) {
+	.header {
+		min-height: auto;
+		padding-bottom: 0 !important
+	}
+}
+
+.grecaptcha-badge {
+	display: none
+}
+
+.flag-icon-en {
+	background-image: url(https://airporttaxis.com/images/vendor/flag-icon-css/flags/4x3/gb.svg)
+}
+
+.flag-icon {
+	height: 24px;
+	width: 32px
+}
+
+body {
+	color: #fcfbfb;
+	font-family: Poppins, sans-serif;
+	font-size: 14px;
+	margin: 0;
+	padding: 0
+}
+
+li,
+ul {
+	display: block
+}
+
+h1,
+h2,
+h3,
+h4,
+li,
+ul {
+	margin: 0;
+	padding: 0
+}
+
+a,
+a:active,
+a:hover {
+	text-decoration: none
+}
+
+a {
+	letter-spacing: 0
+}
+
+button,
+button:active,
+button:focus,
+button:hover,
+input,
+input:active,
+input:focus,
+input:hover {
+	outline: 0
+}
+
+.yellow {
+	color: #ffd439
+}
+
+.blue {
+	color: #1d5dda
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 1190px;
+	padding: 0 15px
+}
+
+.header {
+	padding-bottom: 104px
+}
+
+.header_top {
+	padding-top: 22px;
+	position: relative
+}
+
+.header_top,
+.header_top_logo {
+	align-items: center;
+	display: flex
+}
+
+.header_top_logo {
+	color: #fff;
+	font-size: 26px;
+	font-weight: 600;
+	line-height: 22px
+}
+
+.header_top_logo img {
+	margin-right: 15px
+}
+
+.header_top_nav {
+	margin-left: 93px
+}
+
+.header_top_nav ul {
+	display: flex
+}
+
+.header_top_nav ul li+li {
+	margin-left: 38px
+}
+
+.header_top_nav ul li.seperator {
+	background: hsla(0, 0%, 100%, .3);
+	height: 22px;
+	margin-left: 26px;
+	width: 1px
+}
+
+.header_top_nav ul li a {
+	color: #fff;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 22px
+}
+
+.header_top_nav ul li a:hover {
+	color: #ffd339
+}
+
+.popular_airports_wr {
+	background: #fff;
+	border-radius: 20px;
+	box-shadow: 0 15px 35px rgba(1, 1, 1, .1);
+	display: none;
+	left: 0;
+	margin-top: 22px;
+	position: absolute;
+	top: 100%;
+	width: 100%;
+	z-index: 1
+}
+
+.popular_airports_menu {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 30px
+}
+
+.popular_airports_item {
+	width: 234px
+}
+
+.popular_airports_item:nth-child(2) {
+	margin-left: 36px !important
+}
+
+.popular_airports_item+.popular_airports_item {
+	margin-left: 64px
+}
+
+.popular_airports_item_name a {
+	align-items: center;
+	color: #242931 !important;
+	display: flex;
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 28px;
+	margin-bottom: 24px
+}
+
+.popular_airports_item_name img {
+	border-radius: 3px;
+	height: 28px;
+	margin-right: 15px;
+	width: 42px
+}
+
+.popular_airports_item_ul li a:before {
+	background: #e9ecef;
+	border-radius: 50%;
+	content: "";
+	height: 6px;
+	left: 0;
+	position: absolute;
+	top: 7px;
+	width: 6px
+}
+
+.popular_airports_item_ul li a:hover:before {
+	background: #2e8eff
+}
+
+.header_top_help {
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 22px;
+	margin-left: auto
+}
+
+.header_top_help:hover {
+	color: #ffd339
+}
+
+.header_top_login a {
+	align-items: center;
+	border: 1px solid #fff;
+	border-radius: 8px;
+	color: #fff;
+	display: flex;
+	font-family: SFProDisplay-Bold;
+	font-size: 16px;
+	height: 46px;
+	justify-content: center;
+	letter-spacing: .1em;
+	line-height: 22px;
+	margin-left: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 100px
+}
+
+.header_top_login a img {
+	display: none
+}
+
+.header_top_login a:hover {
+	border: 1px solid #ffd339;
+	color: #ffd339
+}
+
+.header_top_lang {
+	margin-left: 30px;
+	position: relative
+}
+
+.header_top_lang_switcher {
+	align-items: center;
+	display: flex
+}
+
+.header_top_lang_switcher .arrow_down {
+	height: 6px;
+	margin-left: 10px;
+	width: 10px
+}
+
+.header_top_lang img {
+	border-radius: 4px;
+	height: 24px;
+	width: 32px
+}
+
+.header_offer {
+	margin-top: 52px
+}
+
+.header_offer_title {
+	color: #fff;
+	font-size: 40px;
+	line-height: 54px;
+	margin: 0 auto;
+	max-width: 650px;
+	text-align: center
+}
+
+.header_offer_adcantages {
+	display: flex;
+	justify-content: space-between;
+	margin: 37px auto 20px;
+	width: 960px
+}
+
+.header_offer_adcantages li {
+	align-items: center;
+	color: #fff;
+	display: flex;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px
+}
+
+.header_offer_adcantages li svg {
+	fill: #fff;
+	margin-right: 11px
+}
+
+.header_offer_form {
+	background: #fff;
+	border-radius: 20px;
+	box-shadow: 0 15px 35px rgba(1, 1, 1, .1);
+	margin: 0 auto;
+	max-height: 419px;
+	width: calc(100% - 125px)
+}
+
+.steps {
+	padding-top: 16px
+}
+
+.section_title {
+	color: #242931;
+	font-size: 40px;
+	line-height: 54px;
+	text-align: center
+}
+
+.steps_text {
+	color: #566370;
+	font-size: 20px;
+	line-height: 30px;
+	margin-bottom: 50px;
+	margin-top: 20px;
+	text-align: center
+}
+
+.steps_menu {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 75px
+}
+
+.steps_menu_item {
+	width: 360px
+}
+
+.steps_menu_item_count {
+	align-items: center;
+	color: rgba(208, 227, 255, .4);
+	display: flex;
+	font-size: 150px;
+	font-weight: 700;
+	height: 150px;
+	justify-content: center;
+	line-height: 150px;
+	text-align: center
+}
+
+.steps_menu_item_count img {
+	left: -18px;
+	position: relative
+}
+
+.steps_menu_item h3 {
+	color: #242931;
+	font-size: 26px;
+	line-height: 36px;
+	margin-bottom: 25px;
+	margin-top: 15px;
+	text-align: center
+}
+
+.steps_menu_item p {
+	color: #566370;
+	font-size: 16px;
+	line-height: 28px;
+	padding: 0 8px;
+	text-align: center
+}
+
+.steps_menu_item:nth-child(2) .steps_menu_item_count img {
+	left: -37px
+}
+
+.steps_menu_item:nth-child(3) .steps_menu_item_count img {
+	left: -40px
+}
+
+.lets_talk h2 {
+	color: rgba(35, 59, 95, .1);
+	font-size: 90px;
+	line-height: 120px;
+	text-align: center
+}
+
+.lets_talk a {
+	align-items: center;
+	background: linear-gradient(87.61deg, #ffc635 1.24%, #ffd339);
+	border: 2px solid #ffd339;
+	border-radius: 10px;
+	color: #242931;
+	display: flex;
+	font-size: 18px;
+	font-weight: 700;
+	height: 70px;
+	justify-content: center;
+	letter-spacing: .1em;
+	line-height: 26px;
+	margin: -45px auto 0;
+	position: relative;
+	text-align: center;
+	text-transform: uppercase;
+	transition: all .1s ease-in-out;
+	width: 244px
+}
+
+.lets_talk a:hover {
+	background: linear-gradient(87.61deg, #242931 1.24%, #242931);
+	color: #ffd339
+}
+
+.steps_seperator {
+	margin-top: 50px
+}
+
+.steps_seperator img {
+	width: 100%
+}
+
+.steps_seperator img:last-child {
+	display: none
+}
+
+.cars_home {
+	margin-top: 82px;
+	position: relative;
+	z-index: 3
+}
+
+.cars_home_title {
+	margin-bottom: 20px
+}
+
+.cars_home_text {
+	color: #566370;
+	font-size: 20px;
+	line-height: 30px;
+	margin-bottom: 50px;
+	text-align: center
+}
+
+.cars_home_wr {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between
+}
+
+.cars_home_wr_item {
+	background: #fff;
+	border-radius: 20px;
+	box-shadow: 0 20px 45px rgba(29, 29, 29, .2);
+	margin-bottom: 40px;
+	width: 560px
+}
+
+.cars_home_wr_info {
+	display: flex;
+	padding: 30px 26px
+}
+
+.cars_home_wr_img {
+	margin-right: 33px;
+	margin-top: 20px;
+	width: 200px
+}
+
+.cars_home_wr_img img {
+	width: 100%
+}
+
+.cars_home_wr_status {
+	color: #242931;
+	font-size: 26px;
+	line-height: 36px
+}
+
+.cars_home_wr_name {
+	color: #566370;
+	font-size: 18px;
+	line-height: 30px;
+	margin-top: 5px
+}
+
+.cars_home_wr_charach {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 30px
+}
+
+.cars_home_wr_charach li {
+	color: #242931;
+	display: flex;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 26px;
+	width: 50%
+}
+
+.cars_home_wr_charach li span {
+	color: #9ba8b5;
+	display: block;
+	font-weight: 400;
+	margin-right: 10px
+}
+
+.cars_home_wr_btn {
+	align-items: center;
+	background: linear-gradient(86.33deg, #6ab92d, #9ecb1e);
+	border-radius: 0 0 20px 20px;
+	color: #fff;
+	display: flex;
+	font-size: 16px;
+	font-weight: 700;
+	justify-content: center;
+	letter-spacing: .1em;
+	line-height: 26px;
+	padding: 17px 0;
+	text-align: center;
+	text-transform: uppercase
+}
+
+.cars_home_wr_btn:hover {
+	background: #242931;
+	color: #ffd131
+}
+
+.we_offer_item+.we_offer_item {
+	margin-left: 40px
+}
+
+.footer {
+	background: url(../images/footer_bg.png) no-repeat top/cover;
+	padding-bottom: 40px;
+	padding-top: 205px
+}
+
+.footer_img {
+	display: block;
+	margin: 0 auto 50px;
+	max-width: 98px
+}
+
+.footer_title {
+	color: #fff;
+	font-size: 40px;
+	line-height: 54px;
+	margin-bottom: 20px;
+	text-align: center
+}
+
+.footer_text {
+	color: #8b939f;
+	font-size: 20px;
+	line-height: 30px;
+	margin-bottom: 60px;
+	text-align: center
+}
+
+.footer_btn {
+	align-items: center;
+	background: linear-gradient(87.61deg, #ffc635 1.24%, #ffd339);
+	border: 1px solid #ffc635;
+	border-radius: 10px;
+	color: #242931;
+	display: flex;
+	font-size: 18px;
+	font-weight: 700;
+	height: 70px;
+	justify-content: center;
+	letter-spacing: .1em;
+	line-height: 26px;
+	margin: 0 auto 102px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: all .3s ease;
+	width: 244px
+}
+
+.footer_nav {
+	border-top: 1px solid #3a414b;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 80px;
+	padding-top: 120px
+}
+
+.footer_nav ul h3 {
+	color: #fff;
+	font-size: 18px;
+	line-height: 28px;
+	margin-bottom: 20px
+}
+
+.footer_nav ul li {
+	margin-bottom: 12px
+}
+
+.footer_nav ul li a {
+	color: #8b939f;
+	font-size: 16px
+}
+
+.footer_nav ul li a:hover {
+	color: #fff
+}
+
+.footer_social {
+	display: flex;
+	margin-top: 32px;
+	width: 190px
+}
+
+.footer_social a {
+	align-items: center;
+	border-radius: 8px;
+	display: flex;
+	height: 36px;
+	justify-content: center;
+	width: 36px
+}
+
+.footer_social a+a {
+	margin-left: 15px
+}
+
+.footer_social a.footer_social_fb {
+	background: #4267b2
+}
+
+.footer_social a.footer_social_tw {
+	background: #1da1f2
+}
+
+.footer_social a.footer_social_yt {
+	background: red
+}
+
+.footer_social a.footer_social_ins {
+	background: url(../images/ins_bg.png) no-repeat top/cover
+}
+
+.footer_copy {
+	color: #6a717b;
+	font-size: 16px;
+	line-height: 26px
+}
+
+.hamburger,
+.header_mbmenu {
+	display: none
+}
+
+@media (max-width:1200px) {
+	.container {
+		max-width: 798px
+	}
+
+	.header_top_nav {
+		margin-left: auto
+	}
+
+	.header_top_lang,
+	.header_top_login a,
+	.header_top_nav ul li+li,
+	.header_top_nav ul li.seperator {
+		margin-left: 10px
+	}
+
+	.header_top_logo {
+		font-size: 21px
+	}
+
+	.header_offer_adcantages {
+		flex-wrap: wrap;
+		width: 100%
+	}
+
+	.header_offer_adcantages li {
+		justify-content: center;
+		margin-bottom: 10px;
+		width: 50%
+	}
+
+	.header_offer_form {
+		max-height: none;
+		width: auto
+	}
+
+	.header {
+		margin-bottom: 70px
+	}
+
+	.section_title {
+		font-size: 38px
+	}
+
+	.steps_text {
+		font-size: 18px
+	}
+
+	.steps_menu_item {
+		width: 33.33%
+	}
+
+	.steps_menu_item h3 {
+		font-size: 22px;
+		line-height: 28px
+	}
+
+	.lets_talk h2 {
+		font-size: 67px;
+		line-height: 105px
+	}
+
+	.cars_home_wr_item {
+		width: 100%
+	}
+
+	.about_left {
+		width: 50%
+	}
+
+	.about_right {
+		margin-left: 10px;
+		width: 50%
+	}
+
+	.we_offer_item {
+		width: 25%
+	}
+
+	.we_offer_item+.we_offer_item {
+		margin-left: 15px
+	}
+
+	.we_offer_item h4 {
+		font-size: 16px;
+		line-height: 20px;
+		margin-bottom: 10px
+	}
+
+	.we_offer_item li {
+		font-size: 12px;
+		margin-bottom: 10px
+	}
+
+	.footer_title {
+		font-size: 32px;
+		line-height: 45px;
+		margin-bottom: 10px
+	}
+
+	.footer_text {
+		font-size: 16px;
+		line-height: 26px;
+		margin-bottom: 25px
+	}
+
+	.footer_btn {
+		height: 50px;
+		width: 220px
+	}
+
+	.footer_nav ul li {
+		margin-bottom: 5px
+	}
+
+	.footer_nav ul li a {
+		font-size: 14px
+	}
+
+	.footer_social a+a {
+		margin-left: auto
+	}
+
+	.popular_airports_item {
+		margin-bottom: 10px;
+		width: 50%
+	}
+
+	.popular_airports_item,
+	.popular_airports_item:nth-child(2) {
+		margin-left: 0 !important
+	}
+
+	.popular_airports_wr {
+		z-index: 2
+	}
+}
+
+@media (max-width:767px) {
+	.header_inner .header_top_nav .seperator {
+		display: none
+	}
+
+	.header_offer_form {
+		max-height: none
+	}
+
+	.header_mbmenu {
+		-webkit-backdrop-filter: blur(20px);
+		backdrop-filter: blur(20px);
+		background: rgba(36, 41, 49, .9);
+		display: none;
+		height: 100%;
+		left: 0;
+		overflow-y: scroll;
+		padding: 20px 10px 40px;
+		position: fixed;
+		top: 0;
+		width: 100%;
+		z-index: 99999
+	}
+
+	.header_mbmenu .header_top_nav {
+		display: block;
+		margin-top: 44px
+	}
+
+	.header_top_nav ul li a {
+		font-size: 24px;
+		font-weight: 400;
+		line-height: 60px
+	}
+
+	.header_mbmenu .popular_airports_wr {
+		background: 0 0;
+		border-bottom: 1px solid hsla(0, 0%, 100%, .3);
+		border-radius: 0;
+		display: none;
+		left: 0;
+		padding: 0 0 70px;
+		position: relative;
+		top: 0
+	}
+
+	.header_mbmenu .header_top_lang {
+		display: block;
+		margin-left: 0;
+		padding-top: 20px
+	}
+
+	.header_mbmenu .header_top_lang_switcher {
+		color: #cfcfcf;
+		font-size: 14px;
+		letter-spacing: .1em;
+		line-height: 26px;
+		position: relative;
+		text-transform: uppercase
+	}
+
+	.header_mbmenu .header_top_lang_switcher:after {
+		color: #fff;
+		content: "";
+		font: normal normal normal 32px/1 FontAwesome;
+		position: absolute;
+		right: 0;
+		top: 0;
+		transition: all .3s ease
+	}
+
+	.header_mbmenu .header_top_lang_drop {
+		background-color: transparent;
+		border: none;
+		position: relative
+	}
+
+	.header_mbmenu .header_top_lang_drop a {
+		align-items: center;
+		color: #fff;
+		display: flex;
+		font-size: 18px;
+		justify-content: space-between;
+		line-height: 50px;
+		padding-left: 57px;
+		position: relative
+	}
+
+	.header_mbmenu .header_top_lang_drop a.active:before {
+		content: "";
+		font: normal normal normal 19px/1 FontAwesome;
+		left: 11px;
+		position: absolute;
+		top: 17px
+	}
+
+	.popular_airports_btn {
+		color: #fff;
+		font-size: 24px;
+		font-weight: 600;
+		line-height: 22px;
+		position: relative
+	}
+
+	.popular_airports_btn:after {
+		color: #fff;
+		content: "";
+		font: normal normal normal 32px/1 FontAwesome;
+		position: absolute;
+		right: 0;
+		top: 0;
+		transition: all .3s ease
+	}
+
+	.popular_airports_menu {
+		display: none;
+		margin-top: 40px;
+		padding: 0
+	}
+
+	.header_mbmenu .popular_airports_item_ul li a:before {
+		content: none !important
+	}
+
+	.header_mbmenu .popular_airports_item_name a {
+		color: #fff !important
+	}
+
+	.header_mbmenu .popular_airports_item_name:after {
+		color: #fff
+	}
+
+	.header_mbmenu .popular_airports_item_ul li a:hover {
+		color: #4b9eff
+	}
+
+	.header_mbmenu .popular_airports_item_ul li a {
+		color: #fff;
+		font-size: 16px;
+		line-height: 40px
+	}
+
+	.popular_airports_item {
+		width: 100%
+	}
+
+	.header_top_nav ul {
+		display: block
+	}
+
+	.header_top_nav ul li+li {
+		margin-left: 0
+	}
+
+	.container {
+		max-width: 450px;
+		padding: 0 10px
+	}
+
+	.header_top {
+		padding-top: 20px
+	}
+
+	.header_top .header_top_help {
+		display: none
+	}
+
+	.hamburger {
+		background-color: transparent;
+		border: 0;
+		color: inherit;
+		cursor: pointer;
+		display: inline-block;
+		font: inherit;
+		margin: 0;
+		overflow: visible;
+		padding: 0;
+		text-transform: none;
+		transition-duration: .15s;
+		transition-property: opacity, filter;
+		transition-timing-function: linear
+	}
+
+	.hamburger-box {
+		display: inline-block;
+		height: 3px;
+		position: relative;
+		width: 24px
+	}
+
+	.hamburger-inner {
+		display: block;
+		margin-top: -2px;
+		top: 50%
+	}
+
+	.hamburger-inner,
+	.hamburger-inner:after,
+	.hamburger-inner:before {
+		background-color: #fff;
+		border-radius: 4px;
+		height: 3px;
+		position: absolute;
+		transition-duration: .15s;
+		transition-property: transform;
+		transition-timing-function: ease;
+		width: 26px
+	}
+
+	.hamburger-inner:after,
+	.hamburger-inner:before {
+		content: "";
+		display: block
+	}
+
+	.hamburger-inner:before {
+		top: -9px
+	}
+
+	.hamburger-inner:after {
+		bottom: -9px;
+		width: 14px
+	}
+
+	.hamburger--elastic .hamburger-inner {
+		top: -7px;
+		transition-duration: .275s;
+		transition-timing-function: cubic-bezier(.68, -.55, .265, 1.55)
+	}
+
+	.hamburger--elastic .hamburger-inner:before {
+		top: 10px;
+		transition: opacity .125s ease .275s
+	}
+
+	.hamburger--elastic .hamburger-inner:after {
+		top: 20px;
+		transition: transform .275s cubic-bezier(.68, -.55, .265, 1.55)
+	}
+
+	.header_top_nav {
+		display: none
+	}
+
+	.header_top_help {
+		font-size: 24px;
+		font-weight: 400;
+		line-height: 60px
+	}
+
+	.header_top_login a img {
+		display: block
+	}
+
+	.header_top_login a span {
+		display: none
+	}
+
+	.header_top_login a {
+		border: none;
+		height: auto;
+		margin: 0;
+		width: auto
+	}
+
+	.header_top_lang {
+		display: none
+	}
+
+	.header_top_logo {
+		font-size: 18px;
+		line-height: 20px;
+		margin: 0 auto
+	}
+
+	.header_top_logo img {
+		height: 28px;
+		margin-right: 10px;
+		width: 26px
+	}
+
+	.header_top_login a:hover {
+		border: none
+	}
+
+	.header_offer_title {
+		font-size: 28px;
+		line-height: 38px;
+		margin-bottom: 40px;
+		order: 1;
+		width: 100%
+	}
+
+	.header_offer {
+		display: flex;
+		flex-wrap: wrap
+	}
+
+	.header_offer_form {
+		order: 2;
+		width: 100%
+	}
+
+	.header_offer_adcantages {
+		background-color: #fff;
+		border-radius: 10px;
+		margin-top: 30px;
+		order: 3;
+		padding-top: 20px;
+		position: relative;
+		width: auto;
+		z-index: 2
+	}
+
+	.header_offer_adcantages li {
+		color: #566370;
+		justify-content: flex-start;
+		padding-left: 60px;
+		padding-right: 33px;
+		width: 100%
+	}
+
+	.header {
+		background: url(../images/Taxi-transfers-delivery.webp) no-repeat top;
+		background-size: 100% 600px;
+		margin-bottom: 30px;
+		z-index: 4
+	}
+
+	.header_offer_adcantages li svg {
+		fill: #428eff
+	}
+
+	.header_offer_adcantages li svg path {
+		stroke: #428eff
+	}
+
+	.header_offer_adcantages li .drive_svg path {
+		fill: #428eff;
+		stroke: #428eff
+	}
+
+	.header_offer_adcantages li .smile_svg circle {
+		stroke: #428eff
+	}
+
+	.header_offer_adcantages li .pig_svg path {
+		fill: #428eff
+	}
+
+	.section_title {
+		font-size: 28px;
+		line-height: 38px
+	}
+
+	.steps_text {
+		font-size: 18px;
+		line-height: 28px;
+		margin-bottom: 30px
+	}
+
+	.steps_menu {
+		display: block;
+		margin-bottom: 50px
+	}
+
+	.steps_menu_item {
+		margin-bottom: 30px;
+		width: 100%
+	}
+
+	.lets_talk h2 {
+		font-size: 55px;
+		line-height: 55px
+	}
+
+	.lets_talk a {
+		margin-top: 20px;
+		max-width: 300px;
+		width: 100%
+	}
+
+	.steps_seperator img:last-child {
+		display: block
+	}
+
+	.steps_seperator img:first-child {
+		display: none
+	}
+
+	.cars_home_text {
+		font-size: 18px;
+		line-height: 28px;
+		margin-bottom: 30px
+	}
+
+	.cars_home_wr_info {
+		display: block;
+		padding: 20px 20px 30px
+	}
+
+	.cars_home_wr_img {
+		margin: 0 auto;
+		max-width: 160px
+	}
+
+	.cars_home_wr_charach {
+		margin-top: 20px
+	}
+
+	.cars_home_wr_charach li span {
+		min-width: 95px
+	}
+
+	.cars_home_wr_item {
+		margin-bottom: 30px
+	}
+
+	.reviews {
+		margin-bottom: 80px;
+		padding-bottom: 80px;
+		padding-top: 380px
+	}
+
+	.reviews_text {
+		font-size: 18px;
+		line-height: 28px;
+		margin-bottom: 30px
+	}
+
+	.reviews_text br {
+		display: none
+	}
+
+	.reviews_carousel_item {
+		min-height: 520px;
+		padding: 20px 20px 96px;
+		width: 280px
+	}
+
+	.reviews-carousel .owl-stage-outer {
+		padding-left: 10px
+	}
+
+	.reviews-carousel .owl-stage {
+		padding-bottom: 50px
+	}
+
+	.reviews_carousel_stars {
+		margin-bottom: 20px
+	}
+
+	.reviews_carousel_item p {
+		margin-bottom: 10px
+	}
+
+	.reviews_carousel_bottom {
+		padding-left: 20px;
+		padding-right: 20px
+	}
+
+	.popular_airports_item_name {
+		position: relative
+	}
+
+	.popular_airports_item_name:after {
+		color: #428eff;
+		content: "";
+		font: normal normal normal 32px/1 FontAwesome;
+		position: absolute;
+		right: 0;
+		top: 0;
+		transition: all .3s ease
+	}
+
+	.popular_airports_item_ul {
+		display: none;
+		margin-bottom: 40px
+	}
+
+	.about h3.section_title {
+		display: none
+	}
+
+	.about_hero {
+		display: block
+	}
+
+	.about_left {
+		margin-bottom: 30px;
+		width: 100%
+	}
+
+	.about_right {
+		margin-left: 0;
+		width: 100%
+	}
+
+	.about_right>h3.section_title {
+		display: block;
+		margin-bottom: 20px;
+		text-align: left
+	}
+
+	.about_right h4 {
+		font-size: 20px
+	}
+
+	.we_offer_item {
+		width: 100%
+	}
+
+	.we_offer_menu {
+		display: block;
+		margin-top: 30px
+	}
+
+	.we_offer_item h4 {
+		font-size: 22px;
+		line-height: 28px;
+		margin-bottom: 25px
+	}
+
+	.we_offer_item li {
+		font-size: 16px
+	}
+
+	.we_offer {
+		margin-bottom: 0
+	}
+
+	.footer {
+		padding-top: 150px
+	}
+
+	.footer_title {
+		font-size: 40px;
+		margin-bottom: 20px
+	}
+
+	.footer_text {
+		font-size: 18px;
+		line-height: 28px;
+		margin-bottom: 18px
+	}
+
+	.footer_btn {
+		height: 70px;
+		margin-bottom: 50px;
+		width: 100%
+	}
+
+	.footer_nav {
+		flex-wrap: wrap;
+		margin-bottom: 10px;
+		padding-top: 50px
+	}
+
+	.footer_nav ul {
+		margin-bottom: 40px;
+		width: 100%
+	}
+
+	.footer_nav ul:last-child {
+		order: 1
+	}
+
+	.footer_nav ul:first-child {
+		order: 2
+	}
+
+	.footer_nav ul:nth-child(2) {
+		order: 3
+	}
+
+	.footer_nav ul:nth-child(3) {
+		order: 4
+	}
+
+	.footer_nav ul li a {
+		font-size: 16px
+	}
+
+	.steps_text br {
+		display: none
+	}
+}
+
+#stm-booking-widget .at-widget-booking {
+	max-width: unset !important
+}
+
+#stm-booking-widget br {
+	display: none
+}
+
+#stm-booking-widget .at-widget-booking .at-step-airports-content {
+	padding: 30px 30px 0
+}
+
+#stm-booking-widget .at-widget-booking .ivu-btn-group {
+	display: flex
+}
+
+#stm-booking-widget .at-widget-booking .ivu-btn-group button {
+	background: #e6f3ff;
+	border: none;
+	border-radius: 10px !important;
+	color: #778da4 !important;
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: .1em;
+	line-height: 26px;
+	margin: 0;
+	padding: 16px 0 !important;
+	text-transform: uppercase;
+	width: 100%
+}
+
+#stm-booking-widget .at-widget-booking .ivu-btn-group button.bg-primary {
+	background: linear-gradient(86.33deg, #6ab92d, #9ecb1e);
+	color: #fff !important
+}
+
+#stm-booking-widget .at-widget-booking .at-step-airports-content .from-airport-to button:focus,
+#stm-booking-widget .at-widget-booking .ivu-btn-group button:focus {
+	box-shadow: none
+}
+
+#stm-booking-widget .at-widget-booking .at-step-airports-content .from-airport-to button {
+	border-radius: 10px
+}
+
+#stm-booking-widget .at-widget-booking .at-step-airports-content .from-airport-to button.active {
+	background: linear-gradient(86.33deg, #6ab92d, #9ecb1e);
+	border: 1px solid transparent
+}
+
+#stm-booking-widget .at-widget-booking .at-step-airports-content .from-airport-to {
+	padding: 0 20px
+}
+
+#stm-booking-widget form.ivu-form-label-top {
+	display: flex;
+	flex-wrap: wrap
+}
+
+#stm-booking-widget form.ivu-form-label-top>.ivu-form-item {
+	width: calc(50% - 10px)
+}
+
+#stm-booking-widget form.ivu-form-label-top>.ivu-form-item+.ivu-form-item {
+	margin-left: auto
+}
+
+#stm-booking-widget .at-widget-booking .field-label span {
+	color: #242931;
+	font-size: 15px;
+	font-weight: 600
+}
+
+#stm-booking-widget form.ivu-form-label-top svg {
+	margin-left: 6px
+}
+
+#stm-booking-widget .at-widget-booking .ivu-select-head-flex {
+	height: 58px
+}
+
+#stm-booking-widget .at-widget-booking .ivu-input-wrapper,
+#stm-booking-widget .at-widget-booking .ivu-input-wrapper input {
+	height: 60px
+}
+
+.at-widget-booking .ivu-input-with-suffix {
+	padding-right: 30px
+}
+
+#stm-booking-widget .at-widget-booking .field-label {
+	margin-bottom: 3px
+}
+
+#stm-booking-widget .at-widget-booking .ivu-input-group {
+	top: 0
+}
+
+#stm-booking-widget .at-widget-booking #from-airport-select {
+	color: #242931;
+	padding-left: 0
+}
+
+#stm-booking-widget form.ivu-form-label-top>.ivu-form-item i {
+	color: #ffc226;
+	font-size: 28px !important;
+	margin: 0 10px 0 5px !important
+}
+
+.at-widget-booking .at-google-autocomplete .ivu-input-group-prepend {
+	background-color: #fff;
+	padding: 0 0 0 7px
+}
+
+#stm-booking-widget .at-widget-booking .ivu-card {
+	background: #fff !important
+}
+
+#stm-booking-widget .at-widget-booking .ivu-input-suffix i {
+	color: #ffc226;
+	font-size: 28px !important
+}
+
+#stm-booking-widget form.ivu-form-label-top>.ivu-row {
+	display: flex;
+	margin: 0 -15px !important;
+	width: 480px
+}
+
+#stm-booking-widget form.ivu-form-label-top>.ivu-row .ivu-col-span-6 {
+	float: none;
+	margin: 0 15px;
+	padding: 0 !important;
+	width: 140px
+}
+
+#stm-booking-widget .at-widget-booking .ivu-input-suffix i {
+	line-height: 60px !important
+}
+
+#stm-booking-widget .at-widget-booking .ivu-input-number-large,
+#stm-booking-widget .at-widget-booking .ivu-input-number-large .ivu-input-number-input-wrap,
+#stm-booking-widget .at-widget-booking .ivu-input-number-large input {
+	height: 60px
+}
+
+#stm-booking-widget .at-widget-booking .ivu-input-suffix {
+	left: auto;
+	right: 3px
+}
+
+#stm-booking-widget .at-widget-booking .ivu-input-number-handler-down-inner,
+#stm-booking-widget .at-widget-booking .ivu-input-number-handler-up-inner {
+	right: 4px
+}
+
+#stm-booking-widget .at-widget-booking .ivu-input-number-handler {
+	height: 30px
+}
+
+#stm-booking-widget .at-widget-booking .ivu-input-number-large .ivu-input-number-handler-up-inner {
+	top: 10px
+}
+
+#stm-booking-widget .at-widget-booking .ivu-input-number-large .ivu-input-number-handler-down-inner {
+	bottom: 10px
+}
+
+#stm-booking-widget .at-widget-booking .return-back {
+	align-items: center;
+	margin: 0 0 0 45px !important;
+	width: auto !important
+}
+
+#stm-booking-widget .at-widget-booking .ivu-checkbox-large .ivu-checkbox-inner {
+	height: 24px;
+	width: 24px
+}
+
+#stm-booking-widget .at-widget-booking .at-step-airports-content-search-button {
+	background: linear-gradient(87.61deg, #ffc635 1.24%, #ffd339);
+	background-color: transparent !important;
+	border-radius: 10px !important;
+	bottom: 30px;
+	height: 60px;
+	position: absolute;
+	right: 30px;
+	width: 244px
+}
+
+#stm-booking-widget .at-widget-booking .at-step-airports-content-search-button span {
+	color: #242931;
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: .1em;
+	line-height: 26px;
+	text-transform: uppercase
+}
+
+#stm-booking-widget .at-widget-booking .at-step-airports-content-search-button:hover {
+	background: linear-gradient(87.61deg, #ecb11a 1.24%, #f9c923)
+}
+
+#stm-booking-widget .at-widget-booking .at-step-airports-content .from-airport-to button i {
+	margin-right: 0;
+	margin-top: -2px
+}
+
+#stm-booking-widget form.ivu-form-label-top {
+	width: 100%
+}
+
+.at-widget-booking .at-from-to {
+	margin: 0
+}
+
+@media (max-width:1200px) {
+	#stm-booking-widget form.ivu-form-label-top>.ivu-form-item {
+		width: calc(50% - 10px)
+	}
+
+	#stm-booking-widget .at-widget-booking .at-step-airports-content-search-button {
+		bottom: unset;
+		display: block;
+		margin-left: auto;
+		margin-right: 30px;
+		position: relative;
+		right: unset
+	}
+
+	#stm-booking-widget .at-widget-booking .at-card .ivu-card-body {
+		padding-bottom: 30px !important
+	}
+
+	#stm-booking-widget .at-widget-booking #from-airport-select {
+		font-size: 13px
+	}
+
+	#stm-booking-widget .at-widget-booking .ivu-btn-group button {
+		padding: 8px 0 !important
+	}
+
+	.at-widget-booking .at-sidebar {
+		display: none
+	}
+
+	.at-widget-booking .ivu-card-body {
+		padding-bottom: 30px !important
+	}
+}
+
+@media (max-width:767px) {
+	#stm-booking-widget .at-widget-booking .at-step-airports-content {
+		padding: 0
+	}
+
+	#stm-booking-widget .at-widget-booking .ivu-btn-group button:first-child {
+		border-bottom-right-radius: 0 !important;
+		border-top-right-radius: 0 !important
+	}
+
+	#stm-booking-widget .at-widget-booking .ivu-btn-group button:last-child {
+		border-bottom-left-radius: 0 !important;
+		border-top-left-radius: 0 !important
+	}
+
+	#stm-booking-widget .at-widget-booking .at-step-airports-content button span {
+		font-size: 14px
+	}
+
+	#stm-booking-widget .at-widget-booking .at-step-airports-content .from-airport-to button {
+		margin: 0 5px
+	}
+
+	#stm-booking-widget .at-widget-booking .at-step-airports-content .from-airport-to button i {
+		font-size: 18px;
+		margin-right: 3px
+	}
+
+	#stm-booking-widget .at-widget-booking .at-step-airports-content .from-airport-to {
+		margin-top: 10px !important;
+		padding: 0 10px
+	}
+
+	#stm-booking-widget form.ivu-form-label-top {
+		margin-top: 20px !important
+	}
+
+	#stm-booking-widget form.ivu-form-label-top>.ivu-form-item {
+		width: 100%
+	}
+
+	#stm-booking-widget form.ivu-form-label-top>.ivu-row {
+		flex-wrap: wrap;
+		margin: 0 -10px !important;
+		width: auto
+	}
+
+	#stm-booking-widget form.ivu-form-label-top>.ivu-row .ivu-col-span-6 {
+		float: none;
+		margin: 0;
+		padding: 0 10px !important;
+		width: 50% !important
+	}
+
+	#stm-booking-widget .at-widget-booking .return-back {
+		margin-bottom: 13px !important;
+		margin-left: 0 !important
+	}
+
+	#stm-booking-widget .at-widget-booking .at-step-airports-content-search-button {
+		margin: 0 10px
+	}
+
+	#stm-booking-widget .at-widget-booking .at-card .ivu-card-body {
+		padding: 10px 10px 30px !important
+	}
+
+	#stm-booking-widget .at-widget-booking .at-step-airports-content-search-button {
+		margin: 15px 0 0;
+		width: 100%
+	}
+
+	#stm-booking-widget .at-widget-booking .ivu-row-flex {
+		margin: 0 !important
+	}
+
+	#stm-booking-widget .at-content {
+		padding: 0 !important
+	}
+
+	#stm-booking-widget .at-widget-booking .ivu-btn-group {
+		flex-wrap: wrap
+	}
+
+	#stm-booking-widget .at-widget-booking .ivu-btn-group button {
+		margin-bottom: 5px;
+		padding: 16px 0 !important;
+		width: 100%
+	}
+
+	.at-widget-booking .ivu-card-body {
+		padding-left: 15px !important;
+		padding-right: 15px !important
+	}
+}
+
+.cars_home_wr_img img,
+.steps_seperator img {
+	-o-object-fit: contain;
+	object-fit: contain
+}
+
+/*! CSS Used from: https://airporttaxis.com/css/airport-taxis.css */
+.header_top_lang_drop {
+	background-color: #fff;
+	border: 1px solid #dadada;
+	border-radius: 5px;
+	display: none;
+	left: auto;
+	margin-top: 10px;
+	min-width: 240px;
+	padding: 10px;
+	position: absolute;
+	right: 0;
+	top: 100%;
+	z-index: 1
+}
+
+.header_top_lang_drop a {
+	display: block;
+	padding: 5px;
+	position: relative;
+	top: 5px
+}
+
+.header_top_lang_drop a span {
+	vertical-align: top
+}
+
+.header_top_lang_drop a span.name {
+	color: #566370;
+	display: inline-block;
+	margin-left: 27px;
+	vertical-align: top
+}
+
+.header_top_lang_drop a+a {
+	border-top: 1px solid #f5f3f3;
+	margin-top: 10px;
+	padding-top: 13px
+}
+
+.header_top_lang_drop .flag-icon {
+	margin-bottom: 0
+}
+
+
+
+/*! CSS Used from: http://airports.lndo.site/css/home_critical.css?id=9dd0a73908103419fe53 */
+/*! CSS Used from: http://airports.lndo.site/css/home.css?id=69ab56690032059c4839 */
+@media (max-width:767px) {
+	.reviews_carousel_item {
+		min-height: 520px;
+		padding: 20px 20px 96px;
+		width: 280px
+	}
+
+	.reviews-carousel .owl-stage-outer {
+		padding-left: 10px
+	}
+
+	.reviews-carousel .owl-stage {
+		padding-bottom: 50px
+	}
+
+	.reviews_carousel_stars {
+		margin-bottom: 20px
+	}
+
+	.reviews_carousel_item p {
+		margin-bottom: 10px
+	}
+
+	.reviews_carousel_bottom {
+		padding-left: 20px;
+		padding-right: 20px
+	}
+}
+
+.owl-carousel {
+	-webkit-tap-highlight-color: transparent;
+	display: none;
+	position: relative;
+	width: 100%;
+	z-index: 1
+}
+
+.owl-carousel .owl-stage {
+	-moz-backface-visibility: hidden;
+	position: relative;
+	touch-action: manipulation
+}
+
+.owl-carousel .owl-stage:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	line-height: 0;
+	visibility: hidden
+}
+
+.owl-carousel .owl-stage-outer {
+	overflow: hidden;
+	position: relative;
+	-webkit-transform: translateZ(0)
+}
+
+.owl-carousel .owl-item {
+	-webkit-tap-highlight-color: transparent;
+	-webkit-touch-callout: none;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	float: left;
+	min-height: 1px;
+	position: relative;
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0)
+}
+
+.owl-carousel .owl-item img {
+	display: block;
+	width: 100%
+}
+
+.owl-carousel .owl-dots.disabled {
+	display: none
+}
+
+.owl-carousel.owl-loaded {
+	display: block
+}
+
+.owl-carousel.owl-drag .owl-item {
+	touch-action: pan-y;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none
+}
+
+.owl-theme .owl-dots {
+	-webkit-tap-highlight-color: transparent;
+	text-align: center
+}
+
+.reviews {
+	background: url(../images/yellow_bg.png) no-repeat top/cover;
+	margin-bottom: 70px;
+	margin-top: -310px;
+	padding-bottom: 193px;
+	padding-top: 428px;
+	position: relative;
+	z-index: 2
+}
+
+.reviews_title {
+	margin-bottom: 20px
+}
+
+.reviews_text {
+	color: #242931;
+	font-size: 20px;
+	line-height: 30px;
+	margin-bottom: 60px;
+	text-align: center
+}
+
+.reviews_carousel_item {
+	background: #fff;
+	border-radius: 20px;
+	box-shadow: 0 20px 45px rgba(24, 33, 44, .1);
+	min-height: 576px;
+	padding: 40px 40px 96px;
+	position: relative;
+	width: 360px
+}
+
+.reviews_carousel_stars {
+	display: flex;
+	margin-bottom: 40px
+}
+
+.reviews_carousel_stars span+span {
+	margin-left: 6px
+}
+
+.reviews_carousel_stars i {
+	color: #ffc738;
+	font-size: 28px
+}
+
+.reviews_carousel_item p {
+	color: #566370;
+	font-size: 16px;
+	line-height: 28px;
+	margin-bottom: 20px
+}
+
+.reviews_carousel_name {
+	color: #242931;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 26px
+}
+
+.reviews_carousel_bottom {
+	align-items: center;
+	bottom: 0;
+	display: flex;
+	justify-content: space-between;
+	left: 0;
+	padding: 0 40px 32px;
+	position: absolute;
+	width: 100%
+}
+
+.review_carousel_count {
+	color: #9ba8b5;
+	font-size: 14px;
+	line-height: 26px
+}
+
+.reviews-carousel .owl-stage {
+	padding-bottom: 60px
+}
+
+.reviews-carousel .owl-nav button {
+	background: #fff !important;
+	border-radius: 50% !important;
+	box-shadow: 0 10px 25px rgba(112, 91, 34, .2);
+	height: 60px;
+	margin: 0 10px !important;
+	position: relative;
+	transition: all .3s ease;
+	width: 60px
+}
+
+.reviews-carousel .owl-nav button:hover {
+	background: #242931 !important;
+	transform: scale(1.1)
+}
+
+.reviews-carousel .owl-nav button:hover:after {
+	color: #fff
+}
+
+.reviews-carousel .owl-nav button span {
+	display: none
+}
+
+.reviews-carousel .owl-nav button.owl-prev:after {
+	content: ""
+}
+
+.reviews-carousel .owl-nav button.owl-next:after {
+	content: ""
+}
+
+.reviews-carousel .owl-nav button:after {
+	color: #242931;
+	font: normal normal normal 35px/1 FontAwesome
+}
+
+.popular_airports_item_ul li {
+	position: relative
+}
+
+.about_hero {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 60px;
+	margin-top: 20px
+}
+
+.about_left {
+	height: 379px;
+	width: 421px
+}
+
+.about_left img {
+	height: 100%;
+	-o-object-fit: contain;
+	object-fit: contain;
+	width: 100%
+}
+
+.about_right {
+	margin-left: 86px;
+	width: 558px
+}
+
+.about_right>h3 {
+	display: none
+}
+
+.about_right h4 {
+	color: #242931;
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 32px;
+	margin-bottom: 30px
+}
+
+.about_right p {
+	color: #566370;
+	font-size: 16px;
+	line-height: 28px
+}
+
+.about_right p strong {
+	font-weight: 600
+}
+
+.we_offer {
+	margin-bottom: 50px;
+	margin-top: 56px
+}
+
+.we_offer_menu {
+	display: flex;
+	margin-top: 50px
+}
+
+.we_offer_item {
+	width: 260px
+}
+
+.we_offer_item h4 {
+	color: #242931;
+	font-size: 22px;
+	line-height: 28px;
+	margin-bottom: 25px
+}
+
+.we_offer_item li {
+	color: #566370;
+	font-size: 14px;
+	margin-bottom: 20px;
+	padding-left: 16px;
+	position: relative
+}
+
+.we_offer_item li:before {
+	background: #fbbe48;
+	border-radius: 50%;
+	content: "";
+	height: 6px;
+	left: 0;
+	position: absolute;
+	top: 7px;
+	width: 6px
+}
+
+@media (max-width:767px) {
+	.reviews {
+		margin-bottom: 80px;
+		padding-bottom: 80px;
+		padding-top: 380px
+	}
+
+	.reviews_text {
+		font-size: 18px;
+		line-height: 28px;
+		margin-bottom: 30px
+	}
+
+	.reviews_text br {
+		display: none
+	}
+
+	.reviews_carousel_item {
+		min-height: 520px;
+		padding: 20px 20px 96px;
+		width: 280px
+	}
+
+	.reviews-carousel .owl-stage-outer {
+		padding-left: 10px
+	}
+
+	.reviews-carousel .owl-stage {
+		padding-bottom: 50px
+	}
+
+	.reviews_carousel_stars {
+		margin-bottom: 20px
+	}
+
+	.reviews_carousel_item p {
+		margin-bottom: 10px
+	}
+
+	.reviews_carousel_bottom {
+		padding-left: 20px;
+		padding-right: 20px
+	}
+
+	.popular_airports_item_name {
+		position: relative
+	}
+
+	.popular_airports_item_name:after {
+		color: #428eff;
+		content: "";
+		font: normal normal normal 32px/1 FontAwesome;
+		position: absolute;
+		right: 0;
+		top: 0;
+		transition: all .3s ease
+	}
+
+	.popular_airports_item_ul {
+		display: none;
+		margin-bottom: 40px
+	}
+
+	.about h3.section_title {
+		display: none
+	}
+
+	.about_hero {
+		display: block
+	}
+
+	.about_left {
+		margin-bottom: 30px;
+		width: 100%
+	}
+
+	.about_right {
+		margin-left: 0;
+		width: 100%
+	}
+
+	.about_right>h3.section_title {
+		display: block;
+		margin-bottom: 20px;
+		text-align: left
+	}
+
+	.about_right h4 {
+		font-size: 20px
+	}
+
+	.we_offer_item {
+		width: 100%
+	}
+
+	.we_offer_menu {
+		display: block;
+		margin-top: 30px
+	}
+
+	.we_offer_item h4 {
+		font-size: 22px;
+		line-height: 28px;
+		margin-bottom: 25px
+	}
+
+	.we_offer_item li {
+		font-size: 16px
+	}
+
+	.we_offer {
+		margin-bottom: 0
+	}
+}
+
+/*! CSS Used from: https://airporttaxis.com/css/app.css */
+.owl-carousel .owl-nav .owl-next,
+.owl-carousel .owl-nav .owl-prev {
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+	background: 0 0;
+	border: none;
+	color: inherit;
+	font: inherit;
+	padding: 0 !important
+}
+
+.owl-theme .owl-nav {
+	-webkit-tap-highlight-color: transparent;
+	margin-top: 10px;
+	text-align: center
+}
+
+.owl-theme .owl-nav [class*=owl-] {
+	background: #d6d6d6;
+	border-radius: 3px;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 14px;
+	margin: 5px;
+	padding: 4px 7px
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+	background: #869791;
+	color: #fff;
+	text-decoration: none
+}
+
+* {
+	box-sizing: border-box
+}
+
+button,
+button:active,
+button:focus,
+button:hover {
+	outline: 0
+}
+
+@media (max-width:767px) {
+	.we_offer_menu .owl-nav {
+		margin-top: 30px
+	}
+
+	.we_offer_menu .owl-nav button {
+		background: #242931 !important;
+		border-radius: 50% !important;
+		box-shadow: 0 10px 25px rgba(112, 91, 34, .2);
+		height: 60px;
+		margin: 0 10px !important;
+		position: relative;
+		transition: all .3s ease;
+		width: 60px
+	}
+
+	.we_offer_menu .owl-nav button span {
+		display: none
+	}
+
+	.we_offer_menu .owl-nav button:after {
+		color: #fff;
+		font: normal normal normal 35px/1 FontAwesome
+	}
+
+	.we_offer_menu .owl-nav button.owl-prev:after {
+		content: ""
+	}
+
+	.we_offer_menu .owl-nav button.owl-next:after {
+		content: ""
+	}
+
+	.we_offer_menu .owl-nav button:hover {
+		background: #ffc836 !important;
+		transform: scale(1.1)
+	}
+
+	.we_offer_menu .owl-nav button:hover:after {
+		color: #242931
+	}
+}
+
+.cookie-consent {
+	background: #ffd238;
+	bottom: 0;
+	box-shadow: 0 0 10px rgb(0 0 0/30%);
+	color: #242931;
+	padding: 10px;
+	position: fixed;
+	text-align: center;
+	width: 100%;
+	z-index: 100
+}
+
+@media (max-width:767px) {
+	.cookie-consent button {
+		margin-left: 0;
+		margin-top: 10px
+	}
+}
+
+.cookie-consent button {
+	background: #fff;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	margin-left: 10px;
+	padding: 6px 14px
+}
+
+#stm-booking-widget,
+.at-step-airports-content.ivu-row {
+	min-height: 425px
+}
+
+@media(max-width:767px) {
+	.at-step-airports-content.ivu-row {
+		min-height: 660px
+	}
+
+	#stm-booking-widget {
+		min-height: 800px
+	}
+}
+
+@media (max-width:578px) {
+	.at-widget-booking .ivu-form-item-error-tip {
+		display: block;
+		font-size: 11px;
+		max-width: calc(100% - 70px)
+	}
+
+	.at-widget-booking .toggle_map_button {
+		display: block;
+		line-height: normal
+	}
+
+	.at-widget-booking .toggle_map_button>div {
+		padding: 0
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
